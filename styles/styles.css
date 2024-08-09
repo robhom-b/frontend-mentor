@@ -1,0 +1,34 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.container{
+    color: white;
+    border: medium solid black;
+    background: goldenrod;
+    text-align: center;
+}
+h1 {
+    font-size: 18 px;
+}
+h2 {
+    font-size: 14 px;
+}
+p {
+    font-size: 11 px;
+}
+.social-container{
+    background-color: aquamarine;
+}
+.social-container{
+    border: medium solid black;
+    padding: 1em;
+    width: 150px;
+    display: block;
+    text-align: center;
+}
+.social-container a{
+    border: medium solid black;
+    padding: 1em;
+    width: 150px;
+    display: block;
+    text-align: center;
+}

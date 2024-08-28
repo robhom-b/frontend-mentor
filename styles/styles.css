@@ -1,34 +1,50 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-.container{
-    color: white;
+/*.container{
+    color: black;
     border: medium solid black;
-    background: goldenrod;
+    background: rgb(238, 237, 235);
     text-align: center;
+}*/
+.inner-container{
+    color: white;
+    border: medium solid #0D2536;
+    background: #304337;
+    text-align: center;
+    width: min-content;
+    height: min-content;
+    margin: auto;
+}
+.profile-picture{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0px;
+}
+.bio{
+    padding: 1em;
 }
 h1 {
     font-size: 18 px;
-}
-h2 {
-    font-size: 14 px;
+    margin: 0%;
 }
 p {
     font-size: 11 px;
+    margin: 0%;
 }
 .social-container{
-    background-color: aquamarine;
-}
-.social-container{
-    border: medium solid black;
+    background-color: #9ebc99;
+    border: medium solid #0D2536;
     padding: 1em;
     width: 150px;
     display: block;
     text-align: center;
+    margin: auto;
 }
-.social-container a{
-    border: medium solid black;
+ .social-container a{
+    background-color: #ccb8a8;
+    border: medium solid #0D2536;
     padding: 1em;
-    width: 150px;
     display: block;
     text-align: center;
 }

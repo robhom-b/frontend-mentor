@@ -16,10 +16,13 @@
 }
 .profile-picture{
     border-radius: 50%;
-    padding: 10px;
     width: 100px;
     height: 100px;
     margin: 0px;
+    /* border-style: solid;
+    border-color: red; */
+    object-position: 50% 50%;
+    object-fit: cover;
 }
 .heading{
     color: rgb(251, 233, 115);

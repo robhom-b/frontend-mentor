@@ -124,3 +124,49 @@ p {
     font-weight: 700;
     font-style: italic;
   }
+
+  .lightMode{
+    background-color: red;
+    /* border: medium solid white; */
+    padding: 1em;
+    width: 150px;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+
+  .style2{
+    background-color: pink;
+  }
+
+/*a.social-button{
+  background-color: red;
+}*/
+
+.social-button-active-state{
+  background-color: green !important;
+}
+
+.tagline-default-state{
+  color: orange;
+}
+
+.tagline-active-state{
+  color: white;
+}
+
+.about-text-default-state{
+  color: yellow;
+}
+
+.about-text-active-state{
+  color: black;
+}
+
+.cardBackground-active-state{
+  background: #C8A685;
+}
+
+.cardContainer-active-state{
+  background: #C8A685;
+}

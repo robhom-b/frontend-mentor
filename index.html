@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles/styles.css">
 
+  <!--External JavaScript Link-->
   <script src="./scripts/main.js" type="module"></script>
   
   <!--Google fonts-->
@@ -14,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
   
+  <!--Title-->
   <title>Frontend Mentor | Social links profile</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -21,24 +23,34 @@
 <body>
  <div class="container">
   <div class="inner-container">
+    
+    <!--Profile Picture-->
     <img class="profile-picture" alt="professional headshot photograph" src="/assets/images/rob-profile.JPG" />
+    
+    <!--Heading copy-->
     <h1 class="titillium-web-bold nameHeader-active">Rob Hom</h1>
     <p class="heading titillium-web-light about-text-default-state tagline">East Coast born and raised</p>
     <p id="tagline" class="tagline-default-state bio titillium-web-light-italic tagline">"Web support specialist and<br>
-      Front-end developer"<br></p>
+      Front-end developer"<br>
+    </p>
+    
+    <!--Button Group-->
     <div id="buttonGroup" class="social-container titillium-web-semibold">
       <a href="https://github.com/robhom-b" class="social-button" target="_blank">GitHub</a><br>
       <a href="https://www.linkedin.com/in/robhom13" class="social-button" target="_blank">LinkedIn</a><br>
       <a href="https://bsky.app/profile/robhom44.bsky.social" class="social-button" target="_blank">Bluesky</a>
     </div>
     
-    <button id="button" onclick="switchStyle(buttonGroup);">Style Me</button>
-    
+    <!--Button-->
+    <button id="button" onclick="switchStyle()">Style Me</button>
+
+    <!--Footer-->
     <div class="attribution titillium-web-semibold">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/robhom-b">Rob Hom</a>.
     </div>
   </div>
 </div>
+<script src="./scripts/main.js" type="module"></script>
 </body>
 </html>

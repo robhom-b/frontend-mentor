@@ -2,7 +2,7 @@
 The new style will toggle on or off a new theme after the user clicks the Style Me button.*/
 
 //Create new function
-function darkMode() {
+function lightMode() {
    const socialButtons = document.querySelectorAll(".social-button"); 
     socialButtons.forEach(button => button.classList.toggle("social-button-active-state"));
 
@@ -18,9 +18,9 @@ function darkMode() {
     cardContainer.classList.toggle("cardContainer-active-state");
     
     /*Checks the function is working */
-    console.log('dark mode on');
+    console.log('light mode on');
   }
 
-  let colorMode = darkMode();
+  let colorMode = lightMode();
   const switchStyleButton = document.getElementById("button");
-  /*switchStyleButton.addEventListener("click", darkMode);*/
+  switchStyleButton.addEventListener("click", lightMode);

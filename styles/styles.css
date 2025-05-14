@@ -5,7 +5,7 @@
     text-align: center;
 }
 .inner-container{
-    color: #000000;
+    color: #df2323;
     /* border: medium solid white; */
     border-radius: 10px;
     background: #1e1f1f;
@@ -25,7 +25,7 @@
     object-fit: cover;
 }
 .nameHeader-active{
-  color: #FFFFFF;
+  color: rgb(0, 221, 255);
 }
 .bio{
     color:rgb(190, 192, 189);

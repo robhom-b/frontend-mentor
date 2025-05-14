@@ -18,7 +18,7 @@ function lightMode() {
     cardContainer.classList.toggle("cardContainer-active-state");
     
     /*Checks the function is working */
-    console.log('light mode on');
+    console.log('Execute function done');
   }
 
   let colorMode = lightMode();

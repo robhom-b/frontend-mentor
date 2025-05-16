@@ -1,9 +1,14 @@
 .attribution { font-size: 11px; text-align: center; padding: 10px; }
 .attribution a { color: hsl(228, 80%, 48%); }
+
+/*
+Black background for the window
 .container{
     background: rgb(0, 0, 0);
     text-align: center;
 }
+*/
+
 .inner-container{
     color: #df2323;
     /* border: medium solid white; */

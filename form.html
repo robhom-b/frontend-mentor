@@ -12,22 +12,22 @@
     </script>
 </head>
 <body>
-<h1>Contact Rob</h1>
-<h2>Send a Message</h2>
-<p>Please provide the following information. And I will get back to you shortly!</p>
-<form name="social-contact-form" method="POST" netlify>
-  <div>
-    <label for="name">Name: <input type="text" name="name" id="name" required /> </label>
-  </div>
-  <div>
-    <label for="email">Email: <input type="email" name="email" id="email" required /></label>
-  </div>
-  <div>
-    <label for="message">Message<textarea name="textBody"></textarea></textarea></label>
-  </div>
-  <div>
-    <button type="submit">Send</button>
-  </div>
-</form>
+  <h1>Contact Rob</h1>
+  <h2>Send a Message</h2>
+  <p>Please provide the following information. And I will get back to you shortly!</p>
+  <form name="contact-form" method="POST" data-netlify="true">
+    <div>
+      <label for="name">Name: <input type="text" name="name" id="name" required /> </label>
+    </div>
+    <div>
+      <label for="email">Email: <input type="email" name="email" id="email" required /></label>
+    </div>
+    <div>
+      <label for="message">Message<textarea name="textBody"></textarea></textarea></label>
+    </div>
+    <div>
+      <button type="submit">Send</button>
+    </div>
+  </form>
 </body>
 </html>

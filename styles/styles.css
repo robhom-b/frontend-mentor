@@ -12,10 +12,10 @@ Black background for the window
 .inner-container{
     color: #df2323;
     /* border: medium solid white; */
-    border-radius: 10px;
+    border-radius: 20px;
     background: #1e1f1f;
     text-align: center;
-    width: max-content;
+    width: auto;
     height: min-content;
     margin: auto;
 }
@@ -24,8 +24,8 @@ Black background for the window
     width: 100px;
     height: 100px;
     margin: 0px;
-    /* border-style: solid;
-    border-color: red; */
+    /*border-style: solid;
+    border-color: red;*/
     object-position: 50% 50%;
     object-fit: cover;
 }
@@ -46,7 +46,7 @@ p {
 }
 .social-container{
     background-color: #1e1f1f;
-    border: medium solid white;
+    /*border: medium solid white;*/
     display: grid;
     place-items: center;
     
@@ -145,6 +145,8 @@ p {
 
 a.social-button{
   background-color: #3b3b3c;
+  padding: 1em;
+  margin-bottom: 1em;
 }
 
 a.social-button:hover{

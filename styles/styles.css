@@ -46,21 +46,20 @@ p {
 }
 .social-container{
     background-color: #1e1f1f;
-    /* border: medium solid white; */
-    padding: 1em;
-    width: 150px;
-    display: block;
-    text-align: center;
-    margin: auto;
+    border: medium solid white;
+    display: grid;
+    place-items: center;
+    
+    /*padding: 1em;*/
+
 }
  .social-container a{
     color: white;
     border-radius: 5%;
     width: 125px;
     background-color: rgb(54, 54, 54);
-    padding: 1em;
+    /*padding: 1em;*/
     display: block;
-    text-align: center;
 }
 
 /* Google Fonts */

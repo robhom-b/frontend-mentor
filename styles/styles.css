@@ -195,8 +195,29 @@ a.social-button:hover{
 
 form{
   border: medium solid black;
+  background-color: bisque;
+  max-width: 400px;
+  padding: 1em;
 }
 
+label, text{
+  display: block;
+  margin: 0.5em 0 0.2em 0;
+}
+
+button {
+  background-color: lightseagreen;
+  color: black;
+  margin-top: 1em;
+  padding: 0.7em;
+  border: none;
+}
+
+#form-button{
+  background-color: blue;
+  color: white;
+  border: none;
+}
 
 /*
 Mobile responsive media

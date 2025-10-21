@@ -10,14 +10,14 @@ Black background for the window
 */
 
 .inner-container{
-    color: #df2323;
     /* border: medium solid white; */
     border-radius: 20px;
     background: #1e1f1f;
     text-align: center;
-    width: auto;
+    width: 300px;
     height: min-content;
     margin: auto;
+    color: whitesmoke;
 }
 .profile-picture{
     border-radius: 50%;
@@ -162,11 +162,12 @@ a.social-button:hover{
 }
 
 .tagline{
-  color: #2177e8;
+  color: white;
 }
 
 .active{
-  color:hotpink;
+  color:black;
+  font-weight: bold;
 }
 
 /*.tagline-default-state{
@@ -219,6 +220,11 @@ button {
   border: none;
 }
 
+#text-description{
+  color: #1e1f1f;
+  padding: 0.25em;
+  margin: 1em
+}
 /*
 Mobile responsive media
 
